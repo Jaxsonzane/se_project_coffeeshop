@@ -13,33 +13,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link rel="images" type='image' href="images/logo_coffeeshop_dark.svg"/>
-<link rel="images" type="image" href="images/background_recipes.svg"/>
+<link rel="images" type='image/css' href="images/logo_coffeeshop_dark.svg"/>
+<link rel="images" type="image/css" href="images/background_recipes.svg"/>
 </head>
 
 <body>
     <div class="page">
         <header class="header">
-              
-            
             <nav class="nav">
                 <img 
                 src="./images/logo_coffeeshop_dark.svg" 
                 alt="coffee shop logo" 
                 class="nav__logo"
                 />
-                
+                <img src="./images/background_header.svg" alt="header background" class="header__image"/>
                 <ul class="nav__links">
                     <li><a href="#recipes" class="nav__link">Recipes</a></li>
-                    <li><a href="#" class="nav__link">Book a table</a></li>
-                    <li><a href="#" class="nav__link">Menu</a></li>
-                    <li><a href="#" class="nav__link">Contacts</a></li> 
+                    <li><a href="#reservation" class="nav__link">Book a table</a></li>
+                    <li><a href="#menu" class="nav__link">Menu</a></li>
+                    <li><a href="#about" class="nav__link">Contacts</a></li> 
                 </ul>
             </nav>
             <h1 class="header__title">
+                
                 <span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library
             </h1>
             <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
+            <img src="./images/inside_coffee_shop.png"
+                 alt="illistration of coffee shop"
+                 class="header__coffee-image"
+                 />
             <div class="header__footer">
                 <div>
                     <p class="header__paragraph">Hours:</p>
@@ -52,19 +55,19 @@
         </header> 
         <main class="content">
            <section id="recipes" class="recipes">
-            
+            <img src="./images/background_recipes.svg" alt="recipes background" class="recipes__image"/>
             <h2 class="recipes__title">Recipes</h2>
             <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
-            <div class="recipes__videos">
-                <div>
+            <section class="recipes__videos">
+                <section>
                     <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="recipes__video-caption"><span>Aeropress recipe</span>~5 min</p>
-                </div>
-                <div>
+                </section>
+                <section>
                     <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="recipes__video-caption"><span>French press recipe </span>~15 min</p>
-                </div>
-            </div>
+                </section>
+            </section>
            </section>
            <section class="reservation"></section>
            <section class="menu"></section>

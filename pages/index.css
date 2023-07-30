@@ -1,10 +1,5 @@
-header {
-    background-image: url(/images/background_header.svg);
-}
-
-main {
-    background-image: url(/images/background_recipes.svg);
-    background-color: #0a2750;
+.header {
+    position: relative;
 }
 
 .page {
@@ -28,7 +23,25 @@ main {
     
 }
 
+.header__image {
+    z-index: 1;
+    position: absolute;
+    background-repeat: none;
+    block-size: cover;
+    background-position: center;
+
+}    
+
+.header__coffee-image {
+    position: absolute;
+    width: 646px;
+    height: 568px;
+    margin: 124px 0 0;
+    right: 5%;
+    z-index: 2;
     
+    
+}
     
 
 .nav {
@@ -42,6 +55,7 @@ main {
     margin: 0;
     gap: 20px;
     list-style: none;
+    z-index: 4;
 }
 
 .nav__link {
@@ -71,6 +85,7 @@ main {
     max-width: 729px;
     margin: 183px 0 0;
     display: block;
+    
 }
 
 .header__title {
@@ -80,6 +95,7 @@ main {
     font-weight: 500;
     line-height: 72px;
     letter-spacing: -0.6px;
+    z-index: 3;
 }
 .header__description {
     font-family: "Noto Serif";
@@ -99,10 +115,19 @@ main {
 
 .header__paragraph {
     margin: 0;
+    z-index: 1;
 }
 
 .recipes {
     padding: 100px 80px 215px;
+}
+
+.recipes__image {
+    background-color: #0a2750;
+    position: absolute;
+    background-position: center;
+    background-repeat: none;
+    z-index: -1;
 }
 
 .recipes__title {
@@ -114,8 +139,6 @@ main {
     line-height: 52px;
     margin: 0;
     color: white;
-
-
 }
 
 .recipes__subtitle {
