@@ -1,0 +1,80 @@
+.about {
+    
+    background-color: #0A2850;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  .about__title {
+    margin: 0;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    z-index: 1;
+    max-width: 251px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 80px;
+  }
+  
+  .about__content {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 660px;
+    z-index: 1;
+    padding-left: 800px;
+    padding-bottom: 173px;
+    padding-top: 119px;
+    
+  }
+  
+  .about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    margin: -152px 0 0 -129px;
+  }
+
+  .about__circle_animation_blurred {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    margin: -152px 0 0 -129px;
+    animation: pulsate 1.3s ease-in-out infinite;
+  }
+
+  @keyframes pulsate {
+    0% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.5);
+    }
+  }
+  
+  .about__paragraph {
+    max-width: 660px;
+    margin-bottom: 20px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }

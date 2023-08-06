@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :) No ideas right now. This one was really challenging for me.
+
+Jaxson Tanner
