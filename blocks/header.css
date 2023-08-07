@@ -19,44 +19,7 @@
     z-index: 2; 
     top: 124px;
     right: 5px;
-}
-    
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav__links {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    gap: 20px;
-    list-style: none;
-    z-index: 4;
-}
-
-.nav__link:hover {
-    color: #2F80ED;
-    transition: 1.5s ease-out;
-}
-
-.nav__link {
-    color: black;
-    text-decoration-line: none;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.nav__logo {
-    position: relative;
-    left: -50px;
-    width: 105px;
-    height: 39px;
-}
+}   
 
 .header__span-accent {
     font-family: "Noto Serif";
