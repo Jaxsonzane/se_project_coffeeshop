@@ -20,7 +20,7 @@
 .nav__link {
     color: black;
     text-decoration-line: none;
-    font-family: "Inter";
+    font-family: "Inter" , "arial" , "sans-serif";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
