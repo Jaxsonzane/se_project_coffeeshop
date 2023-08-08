@@ -1,5 +1,5 @@
 .menu {
-    background-image: url(/images/background_menu.svg);
+    background-image: url("../images/background_menu.svg");
     background-color: #fff;
     background-size: cover;
     padding: 100px 0 100px;
@@ -10,7 +10,7 @@
 .menu__title {
     text-align: center;
     margin: 0 auto;
-    padding: 100px 0 24px;
+    padding-bottom: 24px;
     max-width: 780px;
     font-family: "Inter" , "arial" , "sans-serif";
     font-style: normal;

@@ -17,12 +17,13 @@
     line-height: 52px;
     z-index: 1;
     max-width: 251px;
-    position: absolute;
+    position: relative;
     padding-top: 100px;
     padding-left: 80px;
   }
   
   .about__content {
+    position: relative;
     font-family: "Noto Serif", "Times New Roman", "sans-serif";
     font-style: normal;
     font-weight: normal;
@@ -30,10 +31,11 @@
     line-height: 30px;
     max-width: 660px;
     z-index: 1;
-    padding-left: 800px;
+    margin: 0;
+    margin-left: auto;
+    padding-right: 80px;
     padding-bottom: 173px;
     padding-top: 119px;
-    
   }
   
   .about__circle {
@@ -46,12 +48,6 @@
   }
 
   .about__circle_animation_blurred {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    position: absolute;
-    margin: -152px 0 0 -129px;
     animation: pulsate 1.3s ease-in-out infinite;
   }
 
@@ -71,10 +67,13 @@
   
   .about__paragraph {
     max-width: 660px;
+    margin: 0;
+    padding: 0;
     margin-bottom: 20px;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", "sans-serif";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+  
   }
