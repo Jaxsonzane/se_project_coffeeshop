@@ -4,7 +4,8 @@
     color: #fff;
     overflow: hidden;
     position: relative;
-    
+    display: flex;
+    justify-content: space-between;
   }
   
   .about__title {
@@ -76,4 +77,8 @@
     font-size: 20px;
     line-height: 30px;
   
+  }
+
+  .about__paragraph:last-of-type {
+    margin-bottom: 0;
   }

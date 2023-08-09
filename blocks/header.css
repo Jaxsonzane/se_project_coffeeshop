@@ -12,13 +12,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
 }
 
 .header__image {
     position: absolute;
     width: 646px;
     height: 568px;
-    z-index: 2; 
+    z-index: -1; 
     top: 124px;
     right: 5px;
 }   
@@ -61,7 +63,7 @@
     justify-content: space-between;
     margin-top: auto;
     align-items: flex-end;
-    color: black;
+    color: #838383;
 }
 
 .header__paragraph {
