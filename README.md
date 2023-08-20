@@ -13,6 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :) No ideas right now. This one was really challenging for me.
+Link to the live site! --> https://jaxsonzane.github.io/se_project_coffeeshop/
 
 Jaxson Tanner
